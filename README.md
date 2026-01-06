@@ -11,4 +11,15 @@ schedule-related workload stressors and NFL player injury risk (2021–2024).
 - `regressions_high_risk.py`: estimates fixed-effects regression models and plots results
 - `plots/`: exported figures used in the paper
 
+## How to run
+Install required packages:
+pip install nfl_data_py pandas numpy matplotlib seaborn statsmodels pytz
+
+Run scripts in order:
+1. schedule.py
+2. snaps.py
+3. injuries.py
+4. correlation_maps.py
+5. regressions_high_risk.py
+
 All data sources are publicly available via the `nfl_data_py` package.
